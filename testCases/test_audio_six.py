@@ -139,14 +139,8 @@ class TestPrism:
             # Base recipients (always receive email)
             to_email_list = [
                 "manikantha.ponduru@aighospitals.com",
-                "prateek.pareek@aighospitals.com",
-                "gaurav.mojasia@aighospitals.com",
-                "akhila.elukapalli@aighospitals.com",
                 "krishnam.dantuluri@aighospitals.com",
-                "challanandini@aighospitals.com",
-                "naren.akash@aighospitals.com",
-                "manikanta.bhavana@aighospitals.com",
-                "sumithkumar.medamina@aighospitals.com"
+                "challanandini@aighospitals.com"
             ]
             # Add these email only if test failed
             if not success:
