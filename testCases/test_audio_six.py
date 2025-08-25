@@ -48,7 +48,8 @@ class TestPrism:
                 "Referer": "https://oneaig.aighospitals.com:4200/",
             }
 
-            file_path = r"C:\Users\10013887\Automation_Projects\QA_PRISM\Project_Prism\audio_files\prism_audio_for_testing.wav"
+            file_path = os.path.join(os.path.dirname(__file__), "..", "audio_files", "prism_audio_for_testing.wav")
+            file_path = os.path.abspath(file_path)
             filename = os.path.basename(file_path)
 
             payload = {
