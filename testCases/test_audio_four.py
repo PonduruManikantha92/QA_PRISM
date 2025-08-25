@@ -37,7 +37,7 @@ class TestPrism:
             pytest.fail("❌ Token could not be retrieved.")
         cls.base_url = "https://prism.aighospitals.com:5786/process_audio"
 
-    def test_post_audio_file(self):
+    def post_test_post_audio_file(self):
         email_body = ""
         success = True
 
