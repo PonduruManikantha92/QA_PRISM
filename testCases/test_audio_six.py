@@ -150,7 +150,7 @@ class TestPrism:
             ]
             # Add these email only if test failed
             if not success:
-                to_email_list.append("kinjal.saxena@aighospitals.com")
+                to_email_list.append("manikantha.ponduru@aighospitals.com")
 
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             subject = f"{'✅' if success else '❌'} Prism Test Report - {'Success' if success else 'Failed'} - {timestamp}"
