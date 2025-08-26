@@ -146,6 +146,7 @@ class TestPrism:
                 "prateek.pareek@aighospitals.com", 
                 "manikanta.bhavana@aighospitals.com",
                 "sumithkumar.medamina@aighospitals.com",
+                "krishna.p@aighospitals.com"
             ]
             # Add these email only if test failed
             if not success:
